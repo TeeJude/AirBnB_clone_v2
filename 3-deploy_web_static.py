@@ -7,7 +7,7 @@ creates and distributes an archive to the web servers
 from fabric.api import env, local, put, run
 from datetime import datetime
 from os.path import exists, isdir
-env.hosts = ['54.237.119.247', '100.25.139.58']
+env.hosts = ['54.172.56.188', '100.25.118.208']
 
 def do_pack():
     """ Generates a .tgz archive """
