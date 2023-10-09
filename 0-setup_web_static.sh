@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#A Batch Script that setup web servers for the deployment of web_static.
+#A batch script to setup a web servers for the deployment of web_static.
 
 apt update -y
 apt install -y nginx
